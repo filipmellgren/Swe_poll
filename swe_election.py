@@ -68,4 +68,3 @@ with plt.style.context('seaborn-notebook'):
     for party in np.arange(1,len(list(polls)[1:-1])+1,1): #list(polls)[1:-1]:
         ax.plot(MA_30.mean().iloc[:,party], 
                 color = colours[party-1], alpha = 0.5, linewidth = 2)
-
